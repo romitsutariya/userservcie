@@ -17,7 +17,7 @@ spec:
     spec:                     # Spec for the containers that will be run in the Pods
       containers:
       - name: polling-app-server
-        image: romitsutariya/library:1.0
+        image: romitsutariya/library:2.0
         imagePullPolicy: IfNotPresent
         ports:
           - name: http
